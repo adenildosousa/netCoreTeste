@@ -1,0 +1,14 @@
+D:\Startp WA\AccessControl\WAGym.AccessControl\src\WAGym.Common\bin\Release\net7.0\WAGym.Common.deps.json
+D:\Startp WA\AccessControl\WAGym.AccessControl\src\WAGym.Common\bin\Release\net7.0\WAGym.Common.dll
+D:\Startp WA\AccessControl\WAGym.AccessControl\src\WAGym.Common\bin\Release\net7.0\WAGym.Common.pdb
+D:\Startp WA\AccessControl\WAGym.AccessControl\src\WAGym.Common\obj\Release\net7.0\WAGym.Common.csproj.AssemblyReference.cache
+D:\Startp WA\AccessControl\WAGym.AccessControl\src\WAGym.Common\obj\Release\net7.0\WAGym.Common.Resource.Resource.resources
+D:\Startp WA\AccessControl\WAGym.AccessControl\src\WAGym.Common\obj\Release\net7.0\WAGym.Common.csproj.GenerateResource.cache
+D:\Startp WA\AccessControl\WAGym.AccessControl\src\WAGym.Common\obj\Release\net7.0\WAGym.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Startp WA\AccessControl\WAGym.AccessControl\src\WAGym.Common\obj\Release\net7.0\WAGym.Common.AssemblyInfoInputs.cache
+D:\Startp WA\AccessControl\WAGym.AccessControl\src\WAGym.Common\obj\Release\net7.0\WAGym.Common.AssemblyInfo.cs
+D:\Startp WA\AccessControl\WAGym.AccessControl\src\WAGym.Common\obj\Release\net7.0\WAGym.Common.csproj.CoreCompileInputs.cache
+D:\Startp WA\AccessControl\WAGym.AccessControl\src\WAGym.Common\obj\Release\net7.0\WAGym.Common.dll
+D:\Startp WA\AccessControl\WAGym.AccessControl\src\WAGym.Common\obj\Release\net7.0\refint\WAGym.Common.dll
+D:\Startp WA\AccessControl\WAGym.AccessControl\src\WAGym.Common\obj\Release\net7.0\WAGym.Common.pdb
+D:\Startp WA\AccessControl\WAGym.AccessControl\src\WAGym.Common\obj\Release\net7.0\ref\WAGym.Common.dll

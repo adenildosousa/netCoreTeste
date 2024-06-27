@@ -1,0 +1,126 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9F8742CD-8D68-4089-9B60-3A09675B84DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WAGym.AccessControl", "src\WAGym.AccessControl\WAGym.AccessControl.csproj", "{1A151310-CCBF-4888-BC37-F868FE72168F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WAGym.Common", "src\WAGym.Common\WAGym.Common.csproj", "{644B9B5F-B59C-4F98-876E-5E2E6B0327BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WAGym.Data", "src\WAGym.Data\WAGym.Data.csproj", "{25834917-64D0-47CC-808A-B69B6833655C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WAGym.Domain", "src\WAGym.Domain\WAGym.Domain.csproj", "{F3B33C8E-3592-4C7E-9E23-5C8971F60206}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7A5DD25C-F17D-40B6-9A9D-EDC2E3506F3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WAGym.AccessControl.Tests", "tests\WAGym.AccessControl.Tests\WAGym.AccessControl.Tests.csproj", "{E6122620-3847-463A-B042-5E0212283513}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WAGym.Domain.Tests", "tests\WAGym.Domain.Tests\WAGym.Domain.Tests.csproj", "{51BF4825-46D7-4A88-8093-0DE81FD6E683}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WAGym.Common.Tests", "tests\WAGym.Common.Tests\WAGym.Common.Tests.csproj", "{EDB12D10-1664-4FCE-A32A-1DCB6D2A4916}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WAGym.Data.Tests", "tests\WAGym.Data.Tests\WAGym.Data.Tests.csproj", "{27411A6C-26E5-4E88-8959-82522E52B7F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{70263F18-9A03-4D89-8C5D-15BD6A628FA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.0.0.0", "1.0.0.0", "{6CF6FF00-928D-4350-BD02-BAC5A1F06916}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DML", "DML", "{9C6D69CC-3FAD-4278-820E-5D26C30D8AD5}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\1.0.0.0\DML\0001_Deploy_Adiciona_Funcionalidade_Cadastro_Usuario.sql = scripts\1.0.0.0\DML\0001_Deploy_Adiciona_Funcionalidade_Cadastro_Usuario.sql
+		scripts\1.0.0.0\DML\0001_Rollback_Remove_Funcionalidade_Cadastro_Usuario.sql = scripts\1.0.0.0\DML\0001_Rollback_Remove_Funcionalidade_Cadastro_Usuario.sql
+		scripts\1.0.0.0\DML\0002_Deploy_Adiciona_Funcionalidade_Edicao_Usuario.sql = scripts\1.0.0.0\DML\0002_Deploy_Adiciona_Funcionalidade_Edicao_Usuario.sql
+		scripts\1.0.0.0\DML\0002_Rollback_Remove_Funcionalidade_Edicao_Usuario.sql = scripts\1.0.0.0\DML\0002_Rollback_Remove_Funcionalidade_Edicao_Usuario.sql
+		scripts\1.0.0.0\DML\0003_Deploy_Adiciona_Funcionalidade_Visualizacao_Usuario.sql = scripts\1.0.0.0\DML\0003_Deploy_Adiciona_Funcionalidade_Visualizacao_Usuario.sql
+		scripts\1.0.0.0\DML\0003_Rollback_Remove_Funcionalidade_Visualizacao_Usuario.sql = scripts\1.0.0.0\DML\0003_Rollback_Remove_Funcionalidade_Visualizacao_Usuario.sql
+		scripts\1.0.0.0\DML\0004_Deploy_Adiciona_Funcionalidade_Exclusao_Usuario.sql = scripts\1.0.0.0\DML\0004_Deploy_Adiciona_Funcionalidade_Exclusao_Usuario.sql
+		scripts\1.0.0.0\DML\0004_Rollback_Remove_Funcionalidade_Exclusao_Usuario.sql = scripts\1.0.0.0\DML\0004_Rollback_Remove_Funcionalidade_Exclusao_Usuario.sql
+		scripts\1.0.0.0\DML\0005_Deploy_Permissoes_Pessoa_Fisica.sql = scripts\1.0.0.0\DML\0005_Deploy_Permissoes_Pessoa_Fisica.sql
+		scripts\1.0.0.0\DML\0005_Rollback_Permissoes_Pessoa_Fisica.sql = scripts\1.0.0.0\DML\0005_Rollback_Permissoes_Pessoa_Fisica.sql
+		scripts\1.0.0.0\DML\0007_Deploy_Adiciona_Funcionalidade_Cadastrar_ProfileUser.sql = scripts\1.0.0.0\DML\0007_Deploy_Adiciona_Funcionalidade_Cadastrar_ProfileUser.sql
+		scripts\1.0.0.0\DML\0007_Rollback_Remove_Funcionalidade_Cadastrar_ProfileUser.sql = scripts\1.0.0.0\DML\0007_Rollback_Remove_Funcionalidade_Cadastrar_ProfileUser.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDL", "DDL", "{FE4233AE-084A-4D3E-9FD1-A95DBCE768CC}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\1.0.0.0\DDL\0001_Deploy_Criacao_banco_e_tabelas.sql = scripts\1.0.0.0\DDL\0001_Deploy_Criacao_banco_e_tabelas.sql
+		scripts\1.0.0.0\DDL\0001_Rollback_Criacao_banco_e_tabelas.sql = scripts\1.0.0.0\DDL\0001_Rollback_Criacao_banco_e_tabelas.sql
+		scripts\1.0.0.0\DDL\0002_Deploy_Criacao_Triggers_Logs.sql = scripts\1.0.0.0\DDL\0002_Deploy_Criacao_Triggers_Logs.sql
+		scripts\1.0.0.0\DDL\0002_Rollback_Exclusao_Triggers_Logs.sql = scripts\1.0.0.0\DDL\0002_Rollback_Exclusao_Triggers_Logs.sql
+		scripts\1.0.0.0\DDL\0003_Deploy_Corrige_UniqueKeys_tabela_User.sql = scripts\1.0.0.0\DDL\0003_Deploy_Corrige_UniqueKeys_tabela_User.sql
+		scripts\1.0.0.0\DDL\0003_Rollback_Remove_Constraints_Criadas.sql = scripts\1.0.0.0\DDL\0003_Rollback_Remove_Constraints_Criadas.sql
+		scripts\1.0.0.0\DDL\0004_Deploy_Adicionar_CompanyId_tabela_User.sql = scripts\1.0.0.0\DDL\0004_Deploy_Adicionar_CompanyId_tabela_User.sql
+		scripts\1.0.0.0\DDL\0004_Rollback_Remove_CompanyId_tabela_User.sql = scripts\1.0.0.0\DDL\0004_Rollback_Remove_CompanyId_tabela_User.sql
+		scripts\1.0.0.0\DDL\0005_Deploy_Atualiza_Trigger_UserLog_para_Incluir_CompanyId.sql = scripts\1.0.0.0\DDL\0005_Deploy_Atualiza_Trigger_UserLog_para_Incluir_CompanyId.sql
+		scripts\1.0.0.0\DDL\0005_Rollback_Remove_alteração_Trigger_UserLog_para_Incluir_CompanyId.sql = scripts\1.0.0.0\DDL\0005_Rollback_Remove_alteração_Trigger_UserLog_para_Incluir_CompanyId.sql
+		scripts\1.0.0.0\DDL\0006_Deploy_Adiciona_Default_na_tabela_ProfileUser.sql = scripts\1.0.0.0\DDL\0006_Deploy_Adiciona_Default_na_tabela_ProfileUser.sql
+		scripts\1.0.0.0\DDL\0006_Rollback_Remove_Coluna_Default_da_tabela_ProfileUser.sql = scripts\1.0.0.0\DDL\0006_Rollback_Remove_Coluna_Default_da_tabela_ProfileUser.sql
+		scripts\1.0.0.0\DDL\0007_Deploy_Atualiza_Trigger_ProfileUserLog_para_Incluir_Default.sql = scripts\1.0.0.0\DDL\0007_Deploy_Atualiza_Trigger_ProfileUserLog_para_Incluir_Default.sql
+		scripts\1.0.0.0\DDL\0007_Rollback_Remove_alteração_Trigger_ProfileUserLog_para_Incluir_Default.sql = scripts\1.0.0.0\DDL\0007_Rollback_Remove_alteração_Trigger_ProfileUserLog_para_Incluir_Default.sql
+		scripts\1.0.0.0\DDL\0008_Deploy_Remove_AutoIncremento_Tabela_Functionality.sql = scripts\1.0.0.0\DDL\0008_Deploy_Remove_AutoIncremento_Tabela_Functionality.sql
+		scripts\1.0.0.0\DDL\0008_Rollback_Retorna_AutoIncremento_Tabela_Functionality.sql = scripts\1.0.0.0\DDL\0008_Rollback_Retorna_AutoIncremento_Tabela_Functionality.sql
+		scripts\1.0.0.0\DDL\0009_Deploy_Corrige_UniqueKeys_tabela_User_Por_Company.sql = scripts\1.0.0.0\DDL\0009_Deploy_Corrige_UniqueKeys_tabela_User_Por_Company.sql
+		scripts\1.0.0.0\DDL\0009_Rollback_Remove_Constraints_Criadas_Por_Company.sql = scripts\1.0.0.0\DDL\0009_Rollback_Remove_Constraints_Criadas_Por_Company.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A151310-CCBF-4888-BC37-F868FE72168F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A151310-CCBF-4888-BC37-F868FE72168F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A151310-CCBF-4888-BC37-F868FE72168F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A151310-CCBF-4888-BC37-F868FE72168F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{644B9B5F-B59C-4F98-876E-5E2E6B0327BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{644B9B5F-B59C-4F98-876E-5E2E6B0327BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{644B9B5F-B59C-4F98-876E-5E2E6B0327BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{644B9B5F-B59C-4F98-876E-5E2E6B0327BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25834917-64D0-47CC-808A-B69B6833655C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25834917-64D0-47CC-808A-B69B6833655C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25834917-64D0-47CC-808A-B69B6833655C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25834917-64D0-47CC-808A-B69B6833655C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B33C8E-3592-4C7E-9E23-5C8971F60206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B33C8E-3592-4C7E-9E23-5C8971F60206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B33C8E-3592-4C7E-9E23-5C8971F60206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B33C8E-3592-4C7E-9E23-5C8971F60206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6122620-3847-463A-B042-5E0212283513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6122620-3847-463A-B042-5E0212283513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6122620-3847-463A-B042-5E0212283513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6122620-3847-463A-B042-5E0212283513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51BF4825-46D7-4A88-8093-0DE81FD6E683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51BF4825-46D7-4A88-8093-0DE81FD6E683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51BF4825-46D7-4A88-8093-0DE81FD6E683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51BF4825-46D7-4A88-8093-0DE81FD6E683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB12D10-1664-4FCE-A32A-1DCB6D2A4916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB12D10-1664-4FCE-A32A-1DCB6D2A4916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB12D10-1664-4FCE-A32A-1DCB6D2A4916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB12D10-1664-4FCE-A32A-1DCB6D2A4916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27411A6C-26E5-4E88-8959-82522E52B7F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27411A6C-26E5-4E88-8959-82522E52B7F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27411A6C-26E5-4E88-8959-82522E52B7F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27411A6C-26E5-4E88-8959-82522E52B7F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A151310-CCBF-4888-BC37-F868FE72168F} = {9F8742CD-8D68-4089-9B60-3A09675B84DC}
+		{644B9B5F-B59C-4F98-876E-5E2E6B0327BC} = {9F8742CD-8D68-4089-9B60-3A09675B84DC}
+		{25834917-64D0-47CC-808A-B69B6833655C} = {9F8742CD-8D68-4089-9B60-3A09675B84DC}
+		{F3B33C8E-3592-4C7E-9E23-5C8971F60206} = {9F8742CD-8D68-4089-9B60-3A09675B84DC}
+		{E6122620-3847-463A-B042-5E0212283513} = {7A5DD25C-F17D-40B6-9A9D-EDC2E3506F3F}
+		{51BF4825-46D7-4A88-8093-0DE81FD6E683} = {7A5DD25C-F17D-40B6-9A9D-EDC2E3506F3F}
+		{EDB12D10-1664-4FCE-A32A-1DCB6D2A4916} = {7A5DD25C-F17D-40B6-9A9D-EDC2E3506F3F}
+		{27411A6C-26E5-4E88-8959-82522E52B7F3} = {7A5DD25C-F17D-40B6-9A9D-EDC2E3506F3F}
+		{6CF6FF00-928D-4350-BD02-BAC5A1F06916} = {70263F18-9A03-4D89-8C5D-15BD6A628FA4}
+		{9C6D69CC-3FAD-4278-820E-5D26C30D8AD5} = {6CF6FF00-928D-4350-BD02-BAC5A1F06916}
+		{FE4233AE-084A-4D3E-9FD1-A95DBCE768CC} = {6CF6FF00-928D-4350-BD02-BAC5A1F06916}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50585D2E-5320-4C7E-B605-4AE024D45F7C}
+	EndGlobalSection
+EndGlobal

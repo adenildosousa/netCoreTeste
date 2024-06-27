@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\WAGym.Domain",
+    "\\src\\WAGym.Domain\\Validation"
+  ],
+  "SelectedNode": "\\src\\WAGym.Domain\\Validation\\UserValidator.cs",
+  "PreviewInSolutionExplorer": false
+}
